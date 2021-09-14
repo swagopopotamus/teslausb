@@ -26,7 +26,7 @@ export SHARE_PASSWORD=password
 #export RSYNC_USER=username
 #export RSYNC_SERVER=hostname_or_ip
 #export RSYNC_PATH=path_on_server
-export RSYNC_PORT=22
+#export RSYNC_PORT=22
 
 # Variables for rclone archiving
 #export ARCHIVE_SYSTEM=rclone
