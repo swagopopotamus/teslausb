@@ -103,6 +103,7 @@ function check_archive_configs () {
             check_variable "RSYNC_USER"
             check_variable "RSYNC_SERVER"
             check_variable "RSYNC_PATH"
+			check_variable "RSYNC_PORT"
             export ARCHIVE_SERVER="$RSYNC_SERVER"
             check_rsync
             ;;

@@ -44,6 +44,7 @@ Explanations for each:
 * `RSYNC_USER`: The user on the FTP server
 * `RSYNC_SERVER`: The IP address/hostname of the destination machine
 * `RSYNC_PATH`: The path on the destination machine where the files will be saved
+* `RSYNC_PORT`: The ssh port used to connect to the `RSYNC_SERVER` (Defaults to port 22)
 
 An example config is below:
 ```
